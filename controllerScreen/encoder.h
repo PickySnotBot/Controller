@@ -18,14 +18,11 @@ void wrapMenuIndex();
 
 // Declare external variables for the encoder
 extern int counter;  // Declaration of counter here
-extern const int pin_clk;
-extern const int pin_dt;
-extern const int button_pin;
-
 extern int menuIndex;
 extern int currentStick;
 extern int currentAxis;
 extern float currentValue;
+extern bool adjustingValue;
 extern float rightStickMinMax[2][2];
 extern float leftStickMinMax[2][2];
 extern const int pin_clk;

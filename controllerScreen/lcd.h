@@ -8,6 +8,8 @@
 // Initialize the LCD library with the numbers of the interface pins
 extern rgb_lcd lcd;
 
+extern bool booleanValue; // Declare if controller is sending msgs to ASV
+
 // Declare the variables as extern
 extern const int numMenuItems;
 extern String menuItems[];

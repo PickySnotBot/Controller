@@ -7,9 +7,9 @@
 MenuState menuState = MAIN_MENU;
 
 // Define pins used for the encoder
-const int pin_clk = 3;
-const int pin_dt = 4;
-const int button_pin = 5;
+const int pin_clk = 18;
+const int pin_dt = 19;
+const int button_pin = 12;
 
 // Initialize counter
 int counter = 0;  // or set to -1 if you prefer that
